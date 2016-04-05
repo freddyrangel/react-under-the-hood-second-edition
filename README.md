@@ -1,4 +1,4 @@
-# React Under the Hood: Star Trek Video Game Demo
+# React Under the Hood: Star Trek Video Game Demo, Second Edition
 
 This is the demo for the book [React Under The Hood: A Beginner's Guide](https://leanpub.com/reactunderthehood)
 
@@ -9,8 +9,6 @@ React is quickly becoming the preferred JavaScript library for building front en
 This book goes over React fundamentals as well as its internals. By the time you finish reading the book, you should have a solid understading of React, how it works under the hood, and how to debug React applications. We will go over React patterns and anti-patterns, its overall architectural philosophy, and how to work with third-party libraries.
 
 Best of all, we're not going to do yet another Todo app. Rather, this book walks you through how to build a simple Star Trek video game from scratch using React!
-
-**NOTE:** This is the first edition of "React Under the Hood". The repository for the second edition, with updated ES6 syntax, can be found here: [React Under the Hood: Second Edition](https://github.com/freddyrangel/react-under-the-hood-second-edition)
 
 ## Requirements:
 
@@ -23,4 +21,4 @@ If you have not already done so, clone the [demo repository](https://github.com/
 
 There are two main directories: `finished` and `unfinished`. You will be following along in the `unfinished` directory. `finished` is available if you are stuck or want to skip ahead. Be warned however that copy and pasting from `finished` may not always work since it represents the end state of the game. If you copy code from `finished`, it is possible that code depends on other code that is not going to be added until later in the tutorial.
 
-That said, go ahead and `cd` into `unfinished` and run `npm i`. This will install all the dependencies required for this demo. Once that is finished, you can start the server by running `npm start` and navigating to `localhost:4000` in your browser.
+Once you have all your requirements set up, run `npm install` from the root of the repository to install all the required dependencies. All the trouble of configuring webpack and the dev-server have been done for you. All you need to do is run `npm start` from the root of the repository and navigate to `localhost:8080` in your browser. Of course, if you're just starting out there isn't anything in the `unfinished` directory yet. However, you can see the finished demo by running `npm run finished` and navigating to `localhost:8080` in your browser.
