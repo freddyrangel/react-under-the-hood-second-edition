@@ -1,5 +1,4 @@
 import React           from 'react';
-import EditableElement from './editable-element';
 
 const WarpDriveControls = (p) => {
   // Everyone knows Warp 10 is impossible...
