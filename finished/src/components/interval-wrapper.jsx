@@ -27,6 +27,7 @@ const IntervalWrapper = (Component) => {
 
     render() {
       return <Component
+        {...this.props}
         setInterval={this.setInterval}
         clearIntervals={this.clearIntervals}/>
     }
