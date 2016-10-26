@@ -1,4 +1,4 @@
-import          'jquery-ui/autocomplete';
+import          'jquery-ui/ui/widgets/autocomplete';
 import React    from 'react';
 import ReactDOM from 'react-dom';
 
